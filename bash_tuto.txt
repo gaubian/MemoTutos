@@ -1,0 +1,3 @@
+  grep :
+    -i → case
+    -n → prepend line's numbers

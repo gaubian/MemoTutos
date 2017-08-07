@@ -1,0 +1,25 @@
+How-to :
+  i           → text-mode
+  :q!         → quit
+  :w          → save
+  x           → erase
+  :s/a/b/     → replace first occurence of a at current line by b
+  :s/a/b/g    → replace all a at current line by b
+  :#,#s/a/b/g → replace all a by b between line # and #
+  :%s/a/b/g   → same on all the file
+  :%s/a/b/gc  → Same with a prompt
+  dd          → delete line
+  d           → cut
+  y           → yank
+  v           → highlight
+  p           → paste
+  u           → undo
+  Ctrl-R      → un-undo
+  /text       → search for text downward (p & n = previous and next)
+  ?text       → same but upward
+  !command    → executes command
+  Ctrl-G      → location
+  gg          → beginning of file
+  217G        → Go to line 221
+  %           → find matching parenthesis/bracket
+

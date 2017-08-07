@@ -1,0 +1,18 @@
+How-to :
+  /text          → search for text downward (N & n = previous and next)
+  ?text          → same but upward
+  y              → copy URL (yank in caret mode)
+  :w             → save
+  p(P)           → open pasted URL (in tab)
+  Ctrl-N(Ctrl-P) → go to next (previous) tab
+  gg(G)          → move to top (bottom)
+  :saveas        → save with prompt as to where to save
+  o(t)           → search (in a new tab)
+  O              → alter URL
+  f              → quick-find
+  d              → close tab
+  r(R)           → reload (without cache)
+  ~              → open homedir
+  +(-)           → zoom in(out)
+  b              → buffer
+  c              → caret mode 

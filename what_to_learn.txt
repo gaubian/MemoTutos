@@ -1,0 +1,16 @@
+What to learn :
+  [✔] vim
+  [✔] vimperator
+  [ø] windows tm
+  [ø] SQL
+  [ø] network
+  [ø] library C++
+  [ø] python
+  [ø] mutt
+  [ø] bash
+  [ø] makefile
+
+Legend :
+  ✔ → Done
+  ~ → In progress
+  ø → None
