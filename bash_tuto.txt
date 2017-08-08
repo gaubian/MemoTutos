@@ -1,3 +1,46 @@
+  ls -l : show rights
+  chmod +x : add right x to everyone
   grep :
     -i → case
     -n → prepend line's numbers
+    -v → reverse search
+    -r → recursive
+    ^ → début de ligne
+    $ → fin de ligne
+  sort :
+    -r → reverse
+    -R → random
+    -n → numbers
+  wc :
+    -l -w -c -m → counts lines/words/bytes/characters
+  uniq :
+    only checks adjacent lines
+    -c → prepend number of times a line appears consecutively
+    -d → only keeps those appearing multiple times
+  cut :
+    -c a,b → keeps characters between a and b inclusives (1-indexed)
+    -d , -f 3-5 → takes labels 3 to 5 of a CSV
+  head :
+    -n 17 → keeps the 17th first lines
+  < (>) : inputs from (outputs in) a file
+  >> : appends to a file
+  << string : reads from keyboard until string is written
+  | : composition
+  du : repositories' list
+  w : list of users
+  date : hour
+  ps :
+    -ef : all processes
+    -u user : only keeps those coming a given user
+  kill (-9) PID : (violently) kill process corresponding to PID
+  nohup CMD : apply CMD in the background
+  CMD1 ; CMD2 : apply CMD1, then CMD2
+  crontab :
+    -e : modifies
+      m h dom mon dow command
+      5
+      *
+      3,5,7
+      3-7
+      */3
+    -r : erases
