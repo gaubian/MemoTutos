@@ -7,7 +7,8 @@ How-to :
   :s/a/b/g    → replace all a at current line by b
   :#,#s/a/b/g → replace all a by b between line # and #
   :%s/a/b/g   → same on all the file
-  :%s/a/b/gc  → Same with a prompt
+  :%s/a/b/gc  → same with a prompt
+  :r name     → insert file names name
   dd          → delete line
   d           → cut
   y           → yank

@@ -7,7 +7,7 @@ What to learn :
   [ø] library C++
   [ø] python
   [ø] mutt
-  [ø] bash
+  [✔] bash
   [ø] makefile
 
 Legend :

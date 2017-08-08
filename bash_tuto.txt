@@ -44,3 +44,72 @@
       3-7
       */3
     -r : erases
+  tar :
+    -zcvf : compress
+    -zxvf : extract
+  gzip : compress
+  gunzip : other way
+  sudo /etc/init.d/ssh start/stop : start/stop ssh server
+  variable=value;
+  'txt not evaluated';
+  `txt executed`;
+  echo $variable;
+  read variable;
+  read :
+    -p prompt message
+    -n limit size
+    -t limit time in ms
+    -s not print text written
+  let "a = 5 * 3"
+  PWD : position
+  $# number of parameters
+  $0 name of script
+  $1 parameter 1
+  switch : slide parameters
+  tab=(val0 val1 val2)
+  ${tab[0]}
+  tab[0 )=val
+  if [ $1 = "Bruno" ]
+  then
+      echo "Salut Bruno !"
+  elif [ $1 = "Michel" ]
+  then
+      echo "Bien le bonjour Michel"
+  elif [ $1 = "Jean" ]
+  then
+      echo "Hé Jean, ça va ?"
+  else
+      echo "J'te connais pas, ouste !"
+  fi
+  Tests :
+    -z s : verify if s empty
+    -n s : non-empty
+    s != t : different
+    s = t : equal
+    a -eq b : int a = int b
+    a -ne b : int a != int b
+    a -lt, -le, -gt, -ge b : same principle
+    -e fil : exists
+    -d fil : is a dir
+    -f fil : is a file
+    -L fil : symbolic link (shortcut)
+    -r fil : can read
+    -w fil : can write
+    -x fil : can execute
+    fila -nt filb : newer than
+    &&, ||, ! : AND, OR, NOT
+
+    while [ test ]
+    do
+        echo 'Action'
+    done
+
+    for variable in 'value1' 'value2' 'value3'
+    do
+        echo "variable is $variable"
+    done
+
+    for i in `seq 1 10`;
+    do
+        echo $i
+    done
