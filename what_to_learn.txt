@@ -7,8 +7,9 @@ What to learn :
   [ø] library C++
   [ø] python
   [ø] mutt
+  [ø] template C++
   [✔] bash
-  [ø] makefile
+  [✔] makefile
 
 Legend :
   ✔ → Done

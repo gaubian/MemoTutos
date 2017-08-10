@@ -15,4 +15,5 @@ How-to :
   ~              → open homedir
   +(-)           → zoom in(out)
   b              → buffer
-  c              → caret mode 
+  c              → caret mode
+  :bmark         → bookmark
