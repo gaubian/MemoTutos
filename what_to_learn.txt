@@ -6,7 +6,6 @@ What to learn :
   [ø] network
   [ø] library C++
   [ø] python
-  [ø] mutt
   [✔] template C++
   [✔] bash
   [✔] makefile
